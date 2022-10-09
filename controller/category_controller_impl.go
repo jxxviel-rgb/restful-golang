@@ -3,12 +3,13 @@ package controller
 import (
 	"encoding/json"
 	"net/http"
-	"restful-golang/helper"
-	"restful-golang/service"
 	"strconv"
 
-	req "restful-golang/entity/request"
-	res "restful-golang/entity/response"
+	"github.com/jxxviel-rgb/restful-golang/helper"
+	"github.com/jxxviel-rgb/restful-golang/service"
+
+	req "github.com/jxxviel-rgb/restful-golang/entity/request"
+	res "github.com/jxxviel-rgb/restful-golang/entity/response"
 
 	"github.com/julienschmidt/httprouter"
 )

@@ -4,8 +4,9 @@ import (
 	"context"
 	"database/sql"
 	"errors"
-	"restful-golang/entity/model"
-	"restful-golang/helper"
+
+	"github.com/jxxviel-rgb/restful-golang/entity/model"
+	"github.com/jxxviel-rgb/restful-golang/helper"
 )
 
 // f *file

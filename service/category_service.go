@@ -2,8 +2,9 @@ package service
 
 import (
 	"context"
-	"restful-golang/entity/request"
-	"restful-golang/entity/response"
+
+	"github.com/jxxviel-rgb/restful-golang/entity/request"
+	"github.com/jxxviel-rgb/restful-golang/entity/response"
 )
 
 type CategoryService interface {

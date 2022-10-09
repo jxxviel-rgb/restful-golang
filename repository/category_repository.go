@@ -3,7 +3,8 @@ package repository
 import (
 	"context"
 	"database/sql"
-	"restful-golang/entity/model"
+
+	"github.com/jxxviel-rgb/restful-golang/entity/model"
 )
 
 type CategoryRepository interface {

@@ -3,12 +3,13 @@ package service
 import (
 	"context"
 	"database/sql"
-	"restful-golang/entity/model"
-	"restful-golang/entity/request"
-	"restful-golang/entity/response"
-	"restful-golang/exception"
-	"restful-golang/helper"
-	"restful-golang/repository"
+
+	"github.com/jxxviel-rgb/restful-golang/entity/model"
+	"github.com/jxxviel-rgb/restful-golang/entity/request"
+	"github.com/jxxviel-rgb/restful-golang/entity/response"
+	"github.com/jxxviel-rgb/restful-golang/exception"
+	"github.com/jxxviel-rgb/restful-golang/helper"
+	"github.com/jxxviel-rgb/restful-golang/repository"
 
 	"github.com/go-playground/validator"
 )

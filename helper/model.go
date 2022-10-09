@@ -1,8 +1,8 @@
 package helper
 
 import (
-	"restful-golang/entity/model"
-	"restful-golang/entity/response"
+	"github.com/jxxviel-rgb/restful-golang/entity/model"
+	"github.com/jxxviel-rgb/restful-golang/entity/response"
 )
 
 func ToCategoryResponse(category model.Category) response.CategoryResponse {

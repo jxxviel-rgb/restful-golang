@@ -2,8 +2,9 @@ package exception
 
 import (
 	"net/http"
-	"restful-golang/entity/response"
-	"restful-golang/helper"
+
+	"github.com/jxxviel-rgb/restful-golang/entity/response"
+	"github.com/jxxviel-rgb/restful-golang/helper"
 
 	"github.com/go-playground/validator"
 )

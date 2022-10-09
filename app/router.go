@@ -1,8 +1,8 @@
 package app
 
 import (
-	"restful-golang/controller"
-	"restful-golang/exception"
+	"github.com/jxxviel-rgb/restful-golang/controller"
+	"github.com/jxxviel-rgb/restful-golang/exception"
 
 	"github.com/julienschmidt/httprouter"
 )

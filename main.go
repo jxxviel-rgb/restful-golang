@@ -2,7 +2,9 @@ package main
 
 import (
 	"net/http"
-	"restful-golang/middleware"
+
+	"github.com/jxxviel-rgb/restful-golang/helper"
+	"github.com/jxxviel-rgb/restful-golang/middleware"
 
 	_ "github.com/go-sql-driver/mysql"
 )
@@ -15,9 +17,9 @@ func NewServer(authMiddleware *middleware.AuthMiddleware) *http.Server {
 }
 
 func main() {
-	// server := InitializedApp()
+	server := InitializedServer()
 
-	// err := server.ListenAndServe()
-	// helper.PanicIfError(err)
+	err := server.ListenAndServe()
+	helper.PanicIfError(err)
 
 }
